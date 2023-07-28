@@ -1,35 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
+}
+
+.upper-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    gap: 65px;
 }
 
 .header{
     display: flex;
-    background-color: #1F2937;
     justify-content: space-around;
-    color: white;
 }
 
-.header-box{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 16px;
 }
 
 .header ul{
     display: flex;
     list-style: none;
+    gap: 25px;
     margin: 0;
-    padding: 0;
+    margin-top: 16px;
+
 }
 
-.image-placeholder{
+.header a{
+    text-decoration: none;
+    color: #c8c9ca;
+    font-size: 18px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    margin-left: 198px;
+    margin-right: 198px;
+}
+
+.main-heading{
+    max-width: 500px;
+}
+
+.main-heading h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.main-heading p{
+    font-size: 18px;
+    color: #c8c9ca;
+}
+
+.main-heading button{
+    background-color: #3882F6;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.main-heading button a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.placeholder{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
-    width: 600px;
-    min-height: 150px;
+    background-color: #8e8f8f;
+    max-height: 250px;
+    min-width: 500px;
 }
 
