@@ -97,6 +97,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .information-box h2{
@@ -109,11 +110,15 @@ body{
     padding: 0;
     margin: 0;
     list-style: none;
+    gap: 150px;
 }
 
 .information-box ul li{
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .ill-placeholder{
@@ -121,6 +126,12 @@ body{
     max-width: 150px;
     min-height: 150px;
     border-radius: 10px;
+}
+.text{
+    margin: 0;
+    padding: 0;
+    max-width: 150px;
+    text-align: center;
 }
 
 
